@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# Data files
-data/
+# Data files (arquivos grandes não versionados — veja README para instruções de download)
+data/**/*.csv
+data/**/*.parquet
+data/**/*.json
+!data/**/.gitkeep
